@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Containers */ 
+
+.alert-container{
+    
+}
+
+.callout-container{
+    height: 100vh;
+    
+    background: url("../image/whiskeyback.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+        
+}
+
+.features-container{
+    
+}
+
+.quotes-container{
+    
+}
+
+.monthly-favorites-container{
+    
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron h1{
+    color: #cecccc;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+    
+.lead {
+    color: navajowhite;
+    
+}
+
+.block-divider {
+    
+    width: 180px;
+    height: 3px;
+    border: 0;
+    background-color: #531c1c;
+}
+
+/* Buttons*/
+
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red{
+    background-color: #b34e4e; 
+    color: white;
+    
+}

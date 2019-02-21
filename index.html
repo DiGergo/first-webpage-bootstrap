@@ -1,104 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
     <title>Whiskey Drop | Taste a new whiskey every month!</title>
 </head>
+
 <body>
     <!--nav-->
-    <nav class="navbar navbar-default">
+  <!--  <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!--logo-->
-            <div class="navbar-header">
+   <!--         <div class="navbar-header">
                 <a href="/" class="navbar-brand">
                     Whiskey Drop
                 </a>
             </div>
-            
+
             <!--Navbar-->
-            <ul class="nav navbar-nav">
+   <!--         <ul class="nav navbar-nav">
                 <li class="active"><a href="/">HOME</a></li>
                 <li><a href="/">About</a></li>
                 <li class="visible-xs"><a href="/">Sign In</a></li>
             </ul>
-            
+
             <!--Message-->
-            <div class="navbar-header navbar-right hidden-xs">
+  <!--          <div class="navbar-header navbar-right hidden-xs">
                 <a href="/login" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#signUpModal">Sign Up</a>
                 <p class="navbar-text"><i>Great whiskey delivered to your door!</i></p>
             </div>
         </div>
-    </nav>
-    <article class="container">
-        <!--alert-->
-            <div class="row hidden-xs">
-                <div class="col-xs-12">
-                    <div class="alert alert-warning">
-                        <strong>Sale now on</strong>Get a 12 month's subsription for the price of 6! <a href="">Click here for more details</a>
-                    </div>
+    </nav>   
+<!--    <div class="container alert-container">
+        
+        <div class="row hidden-xs">
+            <div class="col-xs-12">
+                <div class="alert alert-warning">
+                    <strong>Sale now on</strong>Get a 12 month's subsription for the price of 6! <a href="">Click here for more details</a>
                 </div>
             </div>
-            <!-- callout -->
+        </div> 
+        <!-- callout --> 
+ <!--   </div> -->
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
+        <div class="row">
+            <div class="col-xs-12">
+                <section class="callout jumbotron">
+                    <h1>The finest whiskey delivered to your doorstep.</h1>
+                    <hr class="block-divider">
+                    <p class="lead">Sign up today to start receiving the world's best whiskeys every month!<s>£19.99</s> <strong><mark>First one is free!</mark></strong></p>
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink responsibly!</small></p>
+                </section>
+            </div>
+        </div>
+        <!-- callout -->
+    </div>
+    <div class="container quotes-container">
+        <section class="quotes">
+            <!-- Quotes -->
             <div class="row">
                 <div class="col-xs-12">
-                    <section class="callout jumbotron">
-                        <h1>The finest whiskey delivered to your doorstep.</h1>
-                        <p class="lead">Sign up today to start receiving the world's best whiskeys every month!<s>£19.99</s> <strong><mark>First one is free!</mark></strong></p>
-                        <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
-                        <p class="text-muted"><small>You must be over 18 to sign up for our service. Please drink responsibly!</small></p>
-                    </section>
+                    <div class="page-header">
+                        <h2 class="text-uppercase">Quotes</h2>
+                    </div>
                 </div>
             </div>
-            <!-- callout -->
-            
-    
-           <section class="quotes">
-               <!-- Quotes -->
-               <div class="row">
-                   <div class="col-xs-12">
-                        <div class="page-header">
-                           <h2 class="text-uppercase">Quotes</h2>
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="media">
+                        <div class="media-left hidden-xs">
+                            <img src="image/image1.png" class="img-circle media-object" height=100 width=100>
                         </div>
-                   </div>
-               </div>
-               <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="media">
-                            <div class="media-left hidden-xs">
-                                <img src="image/image1.png" class="img-circle media-object" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="quotes">
-                                   <p>I've been introduced to more then 10 whiskeys i newer knew about!</p>
-                                   <p>- Sean Paul</p>
-                               </blockquote>
-                            </div>
+                        <div class="media-body">
+                            <blockquote class="quotes">
+                                <p>I've been introduced to more then 10 whiskeys i newer knew about!</p>
+                                <p>- Sean Paul</p>
+                            </blockquote>
                         </div>
                     </div>
-                   <div class="col-xs-12 col-md-6">
-                       <div class="media">
-                            <div class="media-left hidden-xs">
-                                <img src="image/image1.png" class="img-circle media-object" height=100 width=100>
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="quotes">
-                                   <p>Really great service!!</p>
-                                   <p>- Jimmy Cho</p>
-                                </blockquote
-                            </div>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="media">
+                        <div class="media-left hidden-xs">
+                            <img src="image/image1.png" class="img-circle media-object" height=100 width=100>
                         </div>
-                       
-                   </div>
-               </div>
-           </section>
-           <!-- /* quotes -->
-    
-        
+                        <div class="media-body">
+                            <blockquote class="quotes">
+                                <p>Really great service!!</p>
+                                <p>- Jimmy Cho</p>
+                            </blockquote </div>
+                        </div>
+        </section>
+        <!-- /* quotes -->
+        </div>
+        <div class="container features-container">
             <!-- Features -->
-           <section class="features">
+            <section class="features">
                 <div class="row">
                     <div class="col-xs-12 ">
                         <div class="page-header">
@@ -110,31 +114,35 @@
                     <div class="col-xs-12 col-md-6 col-lg-4">
                         <div class="features">
                             <h3><span class="glyphicon glyphicon-envelope"></span> Feature 1</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nisi, rem incidunt. Eum, eos suscipit tempora est sed voluptates odit temporibus consequatur asperiores perspiciatis aliquam maxime beatae ipsum pariatur, quis doloribus assumenda sequi aut aspernatur nesciunt rem. Iusto illo amet quam qui sequi hic quo, consequatur, sit quos veniam vitae.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti nisi, rem incidunt. Eum, eos suscipit tempora est sed voluptates odit temporibus consequatur asperiores perspiciatis aliquam maxime beatae ipsum pariatur, quis
+                                doloribus assumenda sequi aut aspernatur nesciunt rem. Iusto illo amet quam qui sequi hic quo, consequatur, sit quos veniam vitae.</p>
                             <p><a class="btn btn-sm btn-default" href="">Read more</a></p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6 col-lg-4">
                         <div class="features">
                             <h3><span class="glyphicon glyphicon-envelope"></span> Feature 2</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod a excepturi placeat voluptatibus reiciendis fugit voluptas blanditiis, cum laboriosam, qui similique consectetur itaque sunt ratione sapiente doloremque fugiat laborum temporibus quam consequuntur ducimus. Tempora magni suscipit reprehenderit libero optio id vitae sit autem odit atque repudiandae, nesciunt ipsa blanditiis distinctio!</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod a excepturi placeat voluptatibus reiciendis fugit voluptas blanditiis, cum laboriosam, qui similique consectetur itaque sunt ratione sapiente doloremque fugiat
+                                laborum temporibus quam consequuntur ducimus. Tempora magni suscipit reprehenderit libero optio id vitae sit autem odit atque repudiandae, nesciunt ipsa blanditiis distinctio!</p>
                             <p><a class="btn btn-sm btn-default" href="">Read more</a></p>
                         </div>
                     </div>
                     <div class="col-xs-12 hidden-md col-lg-4">
                         <div class="features">
                             <h3><span class="glyphicon glyphicon-envelope"></span> Feature 3</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque placeat in, aspernatur perspiciatis similique eius voluptas veniam nam ipsam, velit corrupti ullam dolore dignissimos assumenda sunt, magni deserunt ut tempora expedita illo quod. Necessitatibus vel iste omnis, quia repellat quas, consequatur recusandae quasi blanditiis veritatis eos delectus, et accusantium eveniet.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque placeat in, aspernatur perspiciatis similique eius voluptas veniam nam ipsam, velit corrupti ullam dolore dignissimos assumenda sunt, magni deserunt ut tempora
+                                expedita illo quod. Necessitatibus vel iste omnis, quia repellat quas, consequatur recusandae quasi blanditiis veritatis eos delectus, et accusantium eveniet.</p>
                             <p><a class="btn btn-sm btn-default" href="">Read more</a></p>
                         </div>
                     </div>
                 </div>
-           </section>
+            </section>
             <!-- /*features -->
-            
-            <hr>
-            <!-- Monthly favorites -->
-            
+        </div>
+
+        <hr>
+        <!-- Monthly favorites -->
+        <div class="container monthly-favorites-container">
             <section class="monthly-favorites">
                 <div class="row">
                     <div class="col-xs-12">
@@ -169,41 +177,45 @@
                 </div>
             </section>
             <!-- /* monthly favorites -->
-           
-    </article>
-    
-    <!--Modal-->
-    
-    <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Sign Up for Whiskey Drop!</h4>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="email">Email address</label>
-                <input type="email" class="form-control" id="email" placeholder="Email">
-                <p class="help-block">We'll never share your email adress with anyone!</p>
-              </div>
-              <div class="form-group">
-                <label for="Password">Password</label>
-                <input type="password" class="form-control" id="Password" placeholder="Password">
-              </div>
-              <div class="form-group">
-                <label for="repeatPassword">Repeat Password</label>
-                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
-              </div>
-              <button type="submit" class="btn btn-success">Sign Up!</button>
-            </form>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal --> 
+        </div>
+        </article>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <!--Modal-->
+
+        <div class="modal fade" id="signUpModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Sign Up for Whiskey Drop!</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email">
+                                <p class="help-block">We'll never share your email adress with anyone!</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="Password">Password</label>
+                                <input type="password" class="form-control" id="Password" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            </div>
+                            <button type="submit" class="btn btn-success">Sign Up!</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
