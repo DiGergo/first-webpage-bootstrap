@@ -34,6 +34,8 @@ body {
         
 }
 
+
+
 .features-container{
     
 }
@@ -43,6 +45,21 @@ body {
 }
 
 .monthly-favorites-container{
+    
+}
+
+/* navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border:0;
+    
     
 }
 
