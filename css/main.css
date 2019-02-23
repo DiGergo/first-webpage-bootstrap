@@ -2,26 +2,24 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Containers */ 
+/* Containers */
 
-.alert-container{
-    
-}
+.alert-container {}
 
-.callout-container{
+.callout-container {
     height: 100vh;
-    
-    background: url("../image/whiskeyback.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  
-  display: flex;
-  align-items: center;
-  text-align: center;
-  
-  position: relative;
+
+    background: url("../image/whiskeyback.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
 }
 
 .opaque-overlay {
@@ -31,57 +29,100 @@ body {
     height: 100%;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-        
+
 }
 
 
 
-.features-container{
-    
-}
+.features-container {}
 
-.quotes-container{
-    
-}
+.quotes-container {}
 
-.monthly-favorites-container{
-    
-}
+.monthly-favorites-container {}
 
-/* navbar */
+/* Navbar */
 
 .navbar {
     margin-bottom: 0;
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     z-index: 1;
     background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
     border:0;
-    
+}
+
+.navbar-default .navbar-toggle {
+    border-color:transparent;
+    border:0;
+}
+.navbar-default .navbar-toggle:hover {
+    background-color:transparent;
+}
+
+.navbar .navbar-brand{
+    color:white;
+}
+.navbar .navbar-brand:hover {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav a {
+    font-weight: bold;
+    color: white;
+}
+.navbar-btn {
+    color: white;
+    width: 100px;
+    background-color: #ab6247;
+    border-radius: 16px;
+    border-color: #ab6247;
+}
+.navbar-btn:hover {
+    border-color: #ab6247;
+    background-color: #ab6247;
     
 }
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
 
 /* Jumbotron */
 
-.jumbotron{
+.jumbotron {
     background-color: transparent;
 }
 
-.jumbotron h1{
+.jumbotron h1 {
     color: #cecccc;
     font-weight: bold;
     margin-bottom: 25px;
 }
-    
+
 .lead {
     color: navajowhite;
-    
+
 }
 
 .block-divider {
-    
+
     width: 180px;
     height: 3px;
     border: 0;
@@ -90,14 +131,27 @@ body {
 
 /* Buttons*/
 
-.btn--cta{
+.btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
 }
 
-.btn--red{
-    background-color: #b34e4e; 
+.btn--red {
+    background-color: #b34e4e;
     color: white;
-    
+}
+
+/* Alert */
+
+.alert-container .col-xs-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.side-wide-alert {
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border:1px solid transparent;
+    border-radius: 0;
 }
